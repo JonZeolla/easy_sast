@@ -6,6 +6,7 @@
 <a href="https://github.com/PyCQA/bandit"><img alt="Security: Bandit" src="https://img.shields.io/badge/security-bandit-yellow.svg"></a>
 <a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
 <a href="https://opensource.org/licenses/BSD-3-Clause"><img alt="License: BSD 3-Clause" src="https://img.shields.io/badge/License-BSD%203--Clause-blue.svg"></a>
+<a href="https://app.fossa.com/projects/git%2Bgithub.com%2FJonZeolla%2Feasy_sast?ref=badge_shield" alt="FOSSA Status"><img src="https://app.fossa.com/api/projects/git%2Bgithub.com%2FJonZeolla%2Feasy_sast.svg?type=shield"/></a>
 </p>
 
 easy_sast is a docker container for use in integration pipelines to submit an application's build artifacts to a static analysis tool. This has been developed in a way to serve as a build pattern for other containers meant to facilitate similar functionality, and natively integrates with Veracode's Static Analysis product.
@@ -42,6 +43,9 @@ In order to integrate with Veracode, you will need to:
  
         export VERACODE_API_KEY_ID=EXAMPLE
         export VERACODE_API_KEY_SECRET=EXAMPLE
+
+
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FJonZeolla%2Feasy_sast.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FJonZeolla%2Feasy_sast?ref=badge_large)
 
 #### Getting started
 1. Build the docker image:
